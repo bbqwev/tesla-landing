@@ -35,8 +35,30 @@ body {
     font-weight: 500;
     font-size: 20;
     margin-right: 8px;
+    transition: color 0.3s linear;
 }
 
 .nav-item:hover {
+   color: brown; 
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    font-size: 40px;
+    text-align: center;
+    display: flex;
     
+   
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.header-title2 {
+    font-weight: inherit;
+    text-align: center;
+    
+    justify-content: space-around;
 }
