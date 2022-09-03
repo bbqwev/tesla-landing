@@ -62,3 +62,35 @@ body {
     
     justify-content: space-around;
 }
+
+.down-bth {
+    position: relative;
+}
+
+.button {
+    
+        background-color: rgba(23, 26, 32, 0.8);
+        backdrop-filter: blur(8px);
+        font-size: 26;
+        font-weight: 210;
+        color: white;
+        padding: 4px 24px;
+        text-decoration: none;
+        justify-content: space-around;
+        text-align: center;  
+        display: inline-flex;   
+        justify-content: center;
+        
+}
+
+.button2 {
+    background-color:rgba(244, 244, 244, 0.65);
+    backdrop-filter: blur(8px);
+    color: #171a20;
+    text-decoration: none;
+    padding: 4px 24px;
+    font-size: 26;
+    font-weight: 210;
+    display: inline-flex;
+    justify-content: center;
+}
