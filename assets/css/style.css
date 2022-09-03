@@ -94,6 +94,7 @@ body {
         font-size: 1rem;
         margin: 10px;
         box-sizing: border-box;
+        max-width: 300px;
 }
 .button-grey {
     background-color: rgba(23, 26, 32, 0.8);
