@@ -49,48 +49,74 @@ body {
 .header-title {
     font-size: 40px;
     text-align: center;
-    display: flex;
-    
-   
+    display: flex;       
     margin-top: 100px;
     justify-content: space-around;
 }
 
 .header-title2 {
     font-weight: inherit;
-    text-align: center;
-    
-    
+    text-align: center;       
+}
+
+.touchless-delivery {
+    color: #171a20;
+    font-weight: 500;
+    font-size: 20;
+    margin-right: 8px;
+    transition: color 0.3s linear;
+}
+
+.touchless-delivery:hover{
+    color: brown;
 }
 
 .down-bth {
+    width: 100%;   
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 450px;
 }
 
 .button {
-    
-        background-color: rgba(23, 26, 32, 0.8);
-        backdrop-filter: blur(8px);
-        font-size: 26;
-        font-weight: 210;
-        color: white;
-        padding: 4px 24px;
+    display: inline-block;
+        font-size: 5px;
+        font-weight: 100;       
+        padding: 8px 70px;
         text-decoration: none;
         justify-content: space-around;
         text-align: center;  
-        display: inline-flex;   
-        justify-content: center;
-        
+        border-radius: 5px; 
+        user-select: none; 
+        line-height: 1.5;    
+        font-size: 1rem;
+        margin: 10px;
+        box-sizing: border-box;
+}
+.button-grey {
+    background-color: rgba(23, 26, 32, 0.8);
+    backdrop-filter: blur(8px);
+    color: white;
 }
 
-.button2 {
+.button-white {
     background-color:rgba(244, 244, 244, 0.65);
     backdrop-filter: blur(8px);
-    color: #171a20;
-    text-decoration: none;
-    padding: 4px 24px;
-    font-size: 26;
-    font-weight: 210;
-    display: inline-flex;
-    justify-content: center;
+    color: #171a20;                
 }
+
+.tds-icon{
+    background: transparent;
+    block-size: 24px;
+    content: "";
+    display: block;
+    inline-size: 24px;
+    max-inline-size: 100%;
+    min-block-size: 24px;
+    min-inline-size: 24px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
