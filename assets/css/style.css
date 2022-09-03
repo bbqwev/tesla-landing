@@ -17,6 +17,6 @@ body {
     width: 100%;
     height: 100vh;
 
-    background: url("../assets/images/M3-Homepage-Desktop-LHD.jpeg") center no-repeat; 
+    background: url(../images/M3-Homepage-Desktop-LHD.jpeg) center no-repeat; 
     background-size: cover;
 }
