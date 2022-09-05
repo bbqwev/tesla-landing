@@ -156,7 +156,74 @@ body {
 
 
 .sign-in-block {
-    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     
+}
+
+.linebreak {
+    color: var(--tds-color--grey30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 40px auto;
+    white-space: nowrap;
+}
+
+.linebreak::after, .linebreak::before {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    margin: 0 8px;
+    background-color: var(--tds-color--grey60);
+}
+
+.tds-text--500 {
+    font-weight: 500!important;
+}
+
+.input-form {
+    align-items: center;
+    display: block;
+}
+
+.input-form input {
+    padding: 8px 60px;
+    width: 100%;
+    font-size: 15px;
+    background: none;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.input-form input [type="text"] {
+    background-color: #393c41;;
+}
+
+.input-form input [type="submit"] {
+    background: #3d69e1;
+}
+
+.forgot {
+    color: #171a20;
+    
+    font-weight: 500;
+    font-size: 20;
+    margin-right: 8px;
+    transition: color 0.3s linear;
+    display: flex;
+    justify-content: space-between;
+    
+    display: block;
+}
+
+.forgot:hover {
+   color: brown; 
 }
