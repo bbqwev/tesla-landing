@@ -22,7 +22,7 @@ body {
 
 
 .header-line {
-    padding-top: 20px;
+    padding-top: 1.5%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -144,8 +144,9 @@ body {
 .header-line-sign-in {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding-top: 1.5%;
     box-sizing: border-box;
+    padding: 20px;
 }
 
 .navigation-button {
@@ -154,11 +155,16 @@ body {
     margin: 6px;
     border-radius: 12px;
     transition: background-color 0.3s linear;
-    display: flex;
+    display: inline-table;
+    
 }
 
 .navigation-button:hover {
     background-color: #f5f5f5;
+}
+
+.nav-button-svg {
+    
 }
 
 .nav-button {
@@ -166,12 +172,12 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
-    margin-right: 8px;       
+    margin: 5px;       
 }
 
 .sign-in-block {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -222,7 +228,7 @@ body {
 } 
 .input-email {
     background-color: #f5f5f5;
-    color: #393c41;
+    color: #393c41;    
 }
 
 .input-next {
