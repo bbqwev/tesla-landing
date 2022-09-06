@@ -22,34 +22,39 @@
             </div>
 
             <div class="navigation-button">
-                <img src="../tesla-landing/assets/images/Tesla SSO - Sign In-2.svg" width="20" height="20">
+                <a href="../index.html"><img src="../tesla-landing/assets/images/Tesla SSO - Sign In-2.svg" width="20" height="20"></a>
                 <a class="nav-button" href="@">en-US</a>
             </div>
 
         </div>
 
-        <div class="sign-in-block">
+        <form class="sign-in-block">
 
-                <h1>Sign in</h1>
+                <h1 class="form_tittle">Sign in</h1>
                 <p class="sign-in-title">Email Address</p>
                 <div class="input-form">
-                    <input type="text" placeholder="">
+                    <input class="input-email" type="text" placeholder="">
                 </div>
                 <div class="input-form">
-                    <input type="submit" value="Next">
+                    <input class="input-next" type="submit" value="Next">
                 </div>
                 <div class="forgot">
-                    <a href="@">Forgot email?</a>
-                    <a href="@">Forgot password?</a>
+                    <a href="@" class="forgot-link">Forgot email?</a>
+                    <p class="separator">|</p>
+                    <a href="@" class="forgot-link">Forgot password?</a>
                 </div>
                 <span class="linebreak tds-text--500" data-i18n-key="pageSeparatorOrLabel">Or</span>
 
                 <a href="@" class="input-form">
-                    <input type="button" href="@" value="Create account">
+                    <input class="input-create-account" type="button" href="@" value="Create account">
                 </a>
 
-                
-                        
+        </form>
+
+        <div class="footer">
+            <a class="footer-links" href="@">Tesla © 2022</a>
+            <a class="footer-links" href="@">Privacy & Legal</a>
+            <a class="footer-links" href="@">Contact</a>
         </div>
 
     </div>
