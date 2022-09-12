@@ -1,5 +1,5 @@
 function burgermenu(selector) {
-    let menu = $(selector);
+    let menu = (selector);
     let button = menu.find('.menu-btn');
     let links = menu.find('.menu-list');
     let overlay = menu.find('.menu-overlay');

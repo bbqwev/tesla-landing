@@ -59,6 +59,22 @@ body {
     transform: translateX(-100%);
 }
 
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    z-index: 10;
+    
+}
+
+.menu_active .menu-overlay {
+    display: block;
+    backdrop-filter: blur(8px);
+}
+
 .menu-btn{
     color: #171a20;
     text-decoration: none;
