@@ -56,7 +56,7 @@ body {
 }
 
 .menu_active {
-    transform: translateX(-100%);
+    transform: translateX(0%);
 }
 
 .menu-overlay {
