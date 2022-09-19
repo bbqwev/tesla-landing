@@ -43,9 +43,9 @@ body {
 }
 
 .menu {
-    position: fixed;
+    position: absolute;
     right: 0; top: 0;
-    width: 24%;
+    width: 20%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -56,10 +56,26 @@ body {
 }
 
 .menu_active {
-    transform: translateX(-100%);
+    transform: translateX(0%);
 }
 
-.menu-btn{
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    z-index: 10;
+    
+}
+
+.menu_active .menu-overlay {
+    display: block;
+    backdrop-filter: blur(8px);
+}
+
+.menu-btn {
     color: #171a20;
     text-decoration: none;
     font-weight: 500;
@@ -76,12 +92,42 @@ body {
     backdrop-filter: blur(8px);    
 }
 
+.close-menu-btn {
+    position: absolute;
+    background-color: transparent;
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s linear;
+    top: 20px;
+    right: 20px;
+}
+
+.close-menu-btn:hover {
+    background-color:#e2e3e3;
+    backdrop-filter: blur(8px);
+}
+
 .menu-list {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     height: 50%;
     flex-direction: column;
+}
+
+.menu-list-button {
+    margin: 5px;
+    padding: 10px 50px;
+    transition: background-color 0.3s linear;
+    text-decoration: none;
+    color: #393c41;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.menu-list-button:hover {
+    background-color: #d0d1d2;
 }
 
 .nav-item {
@@ -102,15 +148,12 @@ body {
     backdrop-filter: blur(8px);
 }
 
-.header-down {
-    position: relative;
-}
 
 .header-title {
     font-size: 40px;
     text-align: center;
     display: flex;       
-    margin-top: 100px;
+    margin-top: 3%;
     justify-content: space-around;
 }
 
@@ -133,11 +176,10 @@ body {
 
 .down-bth {
     width: 100%;   
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 35%;
+    padding-top: 25%;
 }
 
 .button {
@@ -210,9 +252,9 @@ body {
     background-color: #f5f5f5;
 }
 
-/*.nav-button-svg {
+.nav-button-svg {
     
-}*/
+}
 
 .nav-button {
     color: #171a20;
