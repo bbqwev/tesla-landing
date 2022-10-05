@@ -2,7 +2,8 @@ body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-
+    width: 100%;
+    overflow: hidden;
     color: #333;
 }
 
@@ -25,11 +26,37 @@ body {
     padding-top: 1.5%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;   
 }
+
+.header-shop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.header-sign-in {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
  .header-logo {
     margin: 6px;
     cursor: pointer;
+    align-items: center;
+    display: inline-flex;
+ }
+
+ .header-logo-img {
+    width: 120px; 
+    height: 12.5px;
  }
 
 .products {
@@ -82,7 +109,7 @@ body {
     font-size: 15px;        
     background-color: transparent;
     padding: 4px 8px;
-    margin: 6px;
+    margin-right: 6px;
     border-radius: 12px;
     transition: background-color 0.3s linear;
 }
@@ -225,17 +252,22 @@ body {
 .sign-in-page {
     width: 100%;
     height: 100vh;
-
     background-color: white; 
     background-size: cover;
 }
 
-.header-line-sign-in {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1.5%;
-    box-sizing: border-box;
-    padding: 20px;
+.vehicle-accessories-page {
+    width: 100%;
+    height: 100vh;
+    background-color: white; 
+    background-size: cover;
+    
+}
+
+.separator {
+    padding: 0 15px;
+    font-size: 20px;
+    line-height: 50px;
 }
 
 .navigation-button {
@@ -251,6 +283,7 @@ body {
 .navigation-button:hover {
     background-color: #f5f5f5;
 }
+
 
 .nav-button {
     color: #171a20;
@@ -391,3 +424,111 @@ body {
     text-decoration: underline;
     color: black;
  }
+
+ .container {
+    padding-top: 40px;
+    padding-inline-start: 48px;
+    padding-inline-end: 48px;
+ }
+
+ .category_heading {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+    padding: 0;
+    color: #171a20;
+ }
+
+ .category_container {
+    margin-top: 40px;
+    width: 100%;
+ }
+
+ .category_title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 0;
+ }
+
+ .category_link {
+    color:#000;
+    cursor: default;
+ }
+
+.product-title_list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 15px 0 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.profuct-title_item {
+    margin: 25px 0;
+    max-width: none;
+    margin-bottom: 4px;
+}
+
+.product-title_image {
+    display: block;
+    line-height: 0;
+}
+
+.product-title-image-image{
+    width: 350px;
+    height: 350px;
+}
+
+.product-title_links {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+.product-title_name {
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-title_main-details {
+    margin-right: 24px;
+}
+
+.product-title_link {
+    display: block;
+    color:#000;
+    font-size: 14px;
+    margin: 0;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 700;
+    box-shadow: none;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+.product-title_link:hover {
+    color: #ed4e3b;
+}
+
+.product-price {
+    display: block;
+    color:#000;
+    font-size: 14px;
+    margin: 0;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 700;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.header-logo-shop {
+    align-items: center;
+    display: flex;
+}
