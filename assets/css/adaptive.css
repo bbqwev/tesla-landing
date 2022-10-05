@@ -1,0 +1,80 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+
+}	
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+	body {
+		margin: 0px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		width: 100%;
+		overflow: hidden;
+		color: #333;
+	}
+
+	.header-shop {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 0.5%;
+		box-sizing: border-box;
+		padding-left: 15px;
+		padding-right: 15px;
+		align-items: center;
+		
+
+	}
+
+	.menu-btn {
+		position: absolute;
+		right: 0;
+		
+	}
+
+	.header-logo-img {
+		width: 100px; 
+		height: 10px;
+	 }
+
+	.products {
+		display: flex;
+		align-items: center;
+		transform: translateX(+100%);
+	}
+
+	.product-title-image-image{
+		width: 150px;
+		height: 150px;
+	}
+
+	.container {
+		padding-top: 20px;
+		padding-inline-start: 24px;
+		padding-inline-end: 24px;
+	}
+
+	.profuct-title_item {
+		margin: 25px 0;
+    	width: 47%;
+    	max-width: none;
+	}
+  /* */
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
